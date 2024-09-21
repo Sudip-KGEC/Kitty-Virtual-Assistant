@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url(./image/empty-concrete-room-with-neon-lights.jpg);
+  background-size: cover;
+
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+#a_Container {
+  height: 100vh;
+  width: 100%;
+  display : flex;
+  justify-content:center;
+  align-items : center;
+  margin-bottom: 10vh;
+  flex-direction: column;
+  gap: 10px;
+
+}
+#a_Container img {
+  height: 60vh;
+  margin-top: 5vh;
+  position: absolute;
+  margin-bottom: 40vh;
+}
+#a_Container h1 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  margin-top: 45vh;
+
+}
+
+#btn {
+  padding: 10px 60px;
+  border-radius: 20px;
+  background: linear-gradient(rgb(52, 176, 185),rgb(73, 51, 21) , rgb(55, 82, 95));
+  box-shadow: 1px 1px 20px rgb(104, 255, 235);
+  border: none;
+  display: flex;
+  gap: 10px;
+  color: rgb(9, 243, 243);
+  transition: all 0.3s ease-in ;
+  position: relative;
+  margin-top: 68vh;
+}
+#btn i {
+  color: rgb(86, 232, 252);
+  font-size: 15px;
+  box-shadow: 0px 0px 10px black;
+}
+#voice {
+  max-height: 22vh;
+  display: none;
+  padding: 10px;
+  position:absolute;
+  top: 72vh;
+}
+
+h1 span {
+  color: rgb(255, 0, 157);
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Protest Guerrilla", sans-serif;
+  letter-spacing: 2px;
+}
+#vc {
+  color: aqua;
+  font-size: 30px;
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+#btn:hover {
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 50px rgb(122, 252, 245);
+
+}
