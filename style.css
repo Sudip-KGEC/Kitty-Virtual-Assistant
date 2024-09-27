@@ -100,5 +100,11 @@ h1 span {
   }
   body {
   max-height: 100vh;
+  margin-left: 4vw;
+  background-image: url(./image/pikaso_embed.jpeg);
+  background-size: cover;
+  }
+  #btn {
+    margin-top: 70vh;
   }
 }
