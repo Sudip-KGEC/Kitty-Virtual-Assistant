@@ -98,4 +98,7 @@ h1 span {
     font-size: 25px;
     letter-spacing: 5px;
   }
+  body {
+  max-height: 100vh;
+  }
 }
