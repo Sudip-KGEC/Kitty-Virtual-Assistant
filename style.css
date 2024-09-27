@@ -99,8 +99,8 @@ h1 span {
     letter-spacing: 5px;
   }
   body {
-  max-height: 100vh;
-  max-width: 100vw;
+  max-height: 100%;
+  max-width: 80vw;
   background-image: url(./pikaso_embed.jpeg);
   background-size: cover;
    background-repeat: no-repeat;
