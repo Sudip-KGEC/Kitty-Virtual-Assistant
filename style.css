@@ -100,7 +100,7 @@ h1 span {
   }
   body {
   max-height: 100vh;
-  max-width: 100%;
+  max-width: 100vw;
   background-image: url(./pikaso_embed.jpeg);
   background-size: cover;
    background-repeat: no-repeat;
