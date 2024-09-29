@@ -104,6 +104,7 @@ h1 span {
   background-image: url(./pikaso_embed.jpeg);
   background-size: cover;
    background-repeat: no-repeat;
+    margin: 0 auto ;
   }
   #btn {
     margin-top: 70vh;
@@ -112,5 +113,6 @@ h1 span {
     display : flex;
     justify-content:center;
     align-items : center;
+    margin: 0 auto;
   }
 }
