@@ -29,8 +29,8 @@ function wishMe () {
  }
 }
 
-// window.addEventListener('load',()=>{
-//   wishMe()
+window.addEventListener('load',()=>{
+  wishMe()
 
 // })
 
@@ -71,12 +71,12 @@ function takecommand(quary){
   }else if (quary.includes("bye")){
     speak ("bye sir , take care ")
   
+  }else if (quary.includes("hello")){
+    speak ("Hello sir, how can i help you")
+  
   }
   else if (quary.includes(" what are you doing")){
     speak (" hello sudip sir ,")
-  
-  }else if (quary.includes("about lalit")){
-    speak ("Lalit a fuck boy of kgec")
   
   }
   else if (quary.includes(" about spectro")){
