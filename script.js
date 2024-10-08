@@ -31,8 +31,7 @@ function wishMe () {
 
 window.addEventListener('load',()=>{
   wishMe()
-
-// })
+})
 
 
 // speak text collect funtion
